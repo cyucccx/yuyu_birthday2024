@@ -1,0 +1,1073 @@
+p{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#StartScreen{
+    background-color: rgb(247, 226, 183);
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    
+}
+#StartScreen2{
+    background-color: rgb(247, 226, 183);
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#card_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+#yimincard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#wifecard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#noyacard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#longcard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#andycard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#takalacard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#howchcard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#rokucard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#jintincard{
+    background-color: transparent;
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#characters{
+    background-color: rgb(247, 226, 183);
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#u_so{
+    background-color: rgb(247, 226, 183);
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+#usoLabel{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;  
+    font-size: 400%;
+    text-align: center;
+    z-index: 5;
+}
+
+#UsoCardOpenImg{
+    position: relative;
+    width : 23%;
+    height : 50%;
+    z-index: 3;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+#StoryScreenAnimation{
+    background-color: rgb(247, 226, 183);
+    width : 100%;
+    height : 100%;
+}
+#StoryScreen{
+    background-color: rgb(247, 226, 183);
+    width : 100%;
+    height : 100%;
+    top: 0px;
+    left: 0px;
+    position: relative;
+}
+#noyaImg{
+    width: 20%;
+    height: 20% * 5/8;
+    position: relative;
+    left: 15%;
+    top:35%;
+}
+
+#broleImg{
+    width: 20%;
+    height: 20% * 5/8;
+    position: relative;
+    left: 15%;
+    top:35%;
+}
+#triangle{
+    width: 20%;
+    height: 20% * 5/8;
+    position: relative;
+    left: 15%;
+    top:35%;
+}
+#wifeandyuyu{
+    width: 20%;
+    height: 20% * 5/8;
+    position: relative;
+    left: 55%;
+    top:35%;
+}
+#taroandrokuImg{
+    width: 25%;
+    height: 25%*5/8;
+    position: relative;
+    left: 10%;
+    top:25%;
+}
+#andyandyuyu{
+    width: 22%;
+    height: 22%*5/8;
+    position: relative;
+    left: 70%;
+    top:35%;
+}
+#jintinandyuyu{
+    width: 22%;
+    height: 22%*5/8;
+    position: relative;
+    left: 70%;
+    top:35%;
+}
+#jintinandroku{
+    width: 22%;
+    height: 22%*5/8;
+    position: relative;
+    left: 10%;
+    top:25%;
+}
+#rokuandyuyu{
+    width: 22%;
+    height: 22%*5/8;
+    position: relative;
+    left: 12%;
+    top:25%;
+}
+#yuyu1Img{
+    width: 22%;
+    height: 22%*5/8;
+    position: relative;
+    left: 60%;
+    top:25%;
+}
+#howchImgg{
+    width: 15%;
+    height: 15%*5/8;
+    position: relative;
+    left: 60%;
+    top:20%;
+}
+#andyImgg{
+    width: 15%;
+    height: 15%*5/8;
+    position: relative;
+    left: 64%;
+    top:35%;
+}
+#longImgg{
+    width: 15%;
+    height: 15%*5/8;
+    position: relative;
+    left: 70%;
+    top:16%;
+}
+#takalaImgg{
+    width: 15%;
+    height: 15%*5/8;
+    position: relative;
+    left: 55%;
+    top:55%;
+}
+#yuyu1{
+    width: 22%;
+    height: 22%*5/8;
+    position: relative;
+    left: 60%;
+    top:17%;
+}
+#video01{
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 50%;
+    
+    transform: translate(-50%, 0%);
+    z-index: 2;
+}
+
+#NTUImg{
+   
+    width: 25%;
+    height: 30%;
+    top:35%;
+    left: 10%;
+    position: relative;
+    background-color: transparent;
+    z-index: 5;
+
+}
+#NTNUImg{
+
+    width: 16%;
+    height: 25%;
+    left : 75%;
+    top: 30%;
+    position: relative;
+    background-color: transparent;
+
+}
+#StoryScreen023{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen024{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen022{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen021{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen020{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen019{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen018{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen017{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen016{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen015{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen014{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+#StoryScreen013{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px; 
+}
+
+#StoryScreen012{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;  
+}
+#StoryScreen011{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;  
+}
+#StoryScreen010{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen001{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen002{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen003{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen004{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen005{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen006{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen007{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen008{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryScreen009{
+    width : 100%;
+    height : 100%;
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#StoryMoveOnButton{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#noya_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#long_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#andy_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#yimin_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#takala_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#howch_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#roku_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#jintin_card_end{
+    width: 12%;
+    height: 20%;
+    background-color: transparent;
+    border-color: transparent;
+    left: 75%;
+    top: 75%;
+    position: relative;
+    z-index: 10;
+}
+#howchImg{
+    position: relative;
+    width : 10%;
+    height : 20%;
+    z-index: 1;
+    top : 40%;
+    left : 30%;
+    transform: translate(-50%, -35%);
+}
+#takalaImg{
+    position: relative;
+    width : 45%;
+    height : 45%;
+    z-index: 1;
+    top : 55%;
+    left : 25%;
+    transform: translate(-50%, -35%);
+}
+#jintinImg{
+    position: relative;
+    width : 25%;
+    height : 35%;
+    z-index: 1;
+    top : 50%;
+    left : 40%;
+    transform: translate(-50%, -35%);
+}
+#rokuImg{
+    position: relative;
+    width : 12%;
+    height : 12%*5/8;
+    z-index: 2;
+    top : 50%;
+    left : 53%;
+
+}
+#andyImg{
+    position: relative;
+    width : 15%;
+    height : 15%*5/8;
+    z-index: 1;
+    top : 30%;
+    left : 52%;
+}
+#longImg{
+    position: relative;
+    width : 20%;
+    height : 20%*5/8;
+    z-index: 1;
+    top : 30%;
+    left : 55%;
+}
+#WalkingGirlImg{
+    position: relative;
+    width : 30%;
+    height : 50%;
+    z-index: 1;
+    top : 45%;
+    left : 50%;
+    transform: translate(-50%, -35%);
+}
+
+#yuyubrole{
+    position: relative;
+    width : 20%;
+    height : 35%;
+    z-index: 1;
+    top : 35%;
+    left : 60%;
+
+}
+#StoryLabel22{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 10%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel21{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 10%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel20{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel19{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel18{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel17{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel16{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel15{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel14{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 100%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel13{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel12{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel11{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel10{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel09{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel08{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel07{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel06{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel04{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel05{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel03{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel02{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#StoryLabel01{
+    z-index: 2;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    top : 5%;
+    text-align: center;
+    font-size: 400%;
+    position : relative;
+    width : 80%;
+    height: 20%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+#StoryLabel01_01{
+    z-index: 2;
+    left : 20%;
+    transform: translate(-50%, 0%);
+    top : 30%;
+    text-align: center;
+    font-size: 300%;
+    position : relative;
+    width : 80%;
+    color:rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+#StartScreenLabel{
+
+    left : 50%;
+    transform: translate(-50%, -50%);
+    top : 5%;
+    text-align: center;
+    font-size: 72px;
+    z-index: 2;
+    position : relative;
+
+}
+#StartScreen_gift_button{
+    width:26%;
+    height:40%;
+    z-index: 3;
+    border:none;
+    background-color: transparent;
+    position : relative;
+    top : 35%;
+    left : 50%;
+    transform: translate(-50%, 0%);
+    
+    
+}
+
+#StartScreenbg{
+    width : 100%;
+    height: 100%;
+    z-index: -1;
+    position : absolute;
+    top : 0px;
+    left : 0px;
+}
+
+#CardOpenImg{
+    position: relative;
+    width : 23%;
+    height : 50%;
+    z-index: 1;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+
+#yuyubyroku{
+    position: relative;
+    width: 20%;
+    height: 40%;
+    left: 11%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    z-index: 2;
+
+}
+#yuyubyrokuarthor{
+    position: relative;
+    left:70%;
+    top:80%;
+    font-size: 200%;
+    z-index: 5;
+}
+
+#yuyubyrokusource{
+    position: relative;
+    left:15%;
+    top:50%;
+    font-size: 200%;
+    z-index: 5;
+    
+}
+#yiminword{
+    position: relative;
+    left:45%;
+    top:0%;
+    font-size: 200%;
+    z-index: 5;
+}
+#wifeword{
+    position: relative;
+    left:15%;
+    top:15%;
+    font-size: 250%;
+    z-index: 5;
+}
+#takalaword{
+    position: relative;
+    left:25%;
+    top:0%;
+    font-size: 400%;
+    z-index: 5;
+}
+#noyaword{
+    position: relative;
+    left:45%;
+    top:0%;
+    font-size: 200%;
+    z-index: 5;
+}
+#jintinword{
+    position: relative;
+    left:25%;
+    top:0%;
+    font-size: 200%;
+    z-index: 5;
+}
+#rokuword{
+    position: relative;
+    left:25%;
+    top:0%;
+    font-size: 200%;
+    z-index: 5;
+}
+#longword{
+    position: relative;
+    left:15%;
+    top:0%;
+    font-size: 200%;
+    z-index: 5;
+}
+#andyword{
+    position: relative;
+    left:25%;
+    top:0%;
+    font-size: 200%;
+    z-index: 5;
+}
+#howchword{
+    position: relative;
+    left:25%;
+    top:10%;
+    font-size: 200%;
+    z-index: 5;
+}
+#howchfrom{
+    position: relative;
+    left:15%;
+    top: -10%;
+    font-size: 350%;
+    z-index: 5;
+    transform: translate(-5%, -5%);
+}
+#happybirthday{
+    width:50%;
+    height:auto;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}

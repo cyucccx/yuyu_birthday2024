@@ -1,0 +1,310 @@
+<html>
+    
+    <head>
+        <title>Yuyu 的生日大冒險</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="yuyu_birthday2024/style.css">
+        
+
+    </head>
+<body>
+    <!--<canvas id = "StartScreenCanvas"></canvas> -->
+    <div id = "StartScreen">
+        <p>
+            <h1 id="StartScreenLabel">打開禮物</h1>
+        </p>
+        <p>
+            <button id = "StartScreen_gift_button" onclick="StartTheGame()"></button>
+        </p>
+        
+        <!--<img id = 'StartScreenbg' src = "images/startscreen_bg.jpg">-->
+        
+    </div>
+    <div id = "StartScreen2">
+        <p>
+            <img src="yuyu_birthday2024/images/yuyubyroku.png" id="yuyubyroku">
+        </p>
+        <p><h1 id="yuyubyrokuarthor">圖片作者：料魚<br>網頁作者：Andy Lu</h1></p>
+        <!--<p><h1 id="yuyubyrokusource">照片來源：料魚</h1></p>-->
+    </div>
+    <div id = 'StoryScreenAnimation' style="display:none;">
+        <img id = 'CardOpenImg' src = "yuyu_birthday2024/images/cardopen.gif">
+        <!--<img id = "LoadingImg" src="">-->
+        <!--<h1 id = "CardOpenLabel"></h1>-->
+    </div>
+    <div id="characters" style="display: none;">
+        
+        <!--<h1 id="StoryMoveOnLabel">Next</h1>-->
+        <p><button id = "StoryMoveOnButton" onclick="StoryMoveOn()"style="display: none;"></button></p>
+        <p><img id = 'WalkingGirlImg' src = "yuyu_birthday2024/images/walking_girl.gif"style="display: none;"></p>
+        <p><img src="yuyu_birthday2024/images/roku.gif" id="rokuImg" style="display: none;"></p>
+        <p><img src="yuyu_birthday2024/images/jintin.gif" id="jintinImg" style="display: none;"></p>
+        <p><img src="yuyu_birthday2024/images/takala.gif" id="takalaImg" style="display: none;"></p>
+        <p><img src="yuyu_birthday2024/images/howch.gif" id="howchImg" style="display: none;"></p>
+        <p><img src="yuyu_birthday2024/images/andy.gif" id="andyImg" style="display: none;"></p>
+        <p><img src="yuyu_birthday2024/images/long.gif" id="longImg" style="display: none;"></p>
+    </div>
+    <div id = "StoryScreen" style="display:none;">
+        
+        
+       <!-- <h1 id="StoryLabel01_02">賀瓏迷妹<br>同時也是喜劇愛好者</h1>-->
+       <div id="StoryScreen001" style="display:block">  
+            <p><h1 id="StoryLabel01">這是陳育渝</h1></p>
+            <p><h2 id="StoryLabel01_01">aka tarocle<br>Yuyu 柯粉大將軍<br>賀瓏迷妹<br>民眾黨黨員</h2></p>
+            <p><img src="yuyu_birthday2024/images/yuyucomedy.jpg" id="yuyu1Img"></p>
+        </div>
+        <div id="StoryScreen002" style="display: none;">    
+            <h1 id="StoryLabel02">他原本想要念清交<br>結果分數只能來台師大</h1>
+            <p><img id = 'NTUImg' src = "yuyu_birthday2024/images/ntu.png"></p>
+            <p><img id = 'NTNUImg' src = "yuyu_birthday2024/images/ntnu.png">
+            </p>
+        </div>
+        <div id="StoryScreen003" style="display: none;">
+            <h1 id="StoryLabel03">開學前一個禮拜<br>Yuyu參加了伯樂大學堂</h1>
+            <p><img id = 'broleImg' src="yuyu_birthday2024/images/brole.png"></p>
+            <p><img id = 'yuyubrole' src="yuyu_birthday2024/images/yuyubrole.png"></p>
+            
+     
+        </div>
+        <div id="StoryScreen004" style="display: none;">
+            <h1 id="StoryLabel04">在伯樂大學堂第一次遇到了料魚</h1>
+            <p><img src="yuyu_birthday2024/images/taroandroku.jpg" id="taroandrokuImg"></p>
+            <p><img src="yuyu_birthday2024/images/yuyu1.png" id="yuyu1"></p>
+     
+        </div>
+        <div id = "StoryScreen005" style="display: none;">
+            <h1 id="StoryLabel05">他們成為了很好的朋友！</h1>
+            <p><img src="yuyu_birthday2024/images/rokuandyuyu.png" id="rokuandyuyu"></p>
+        </div>
+        <div id="StoryScreen006" style="display: none;">
+            <h1 id="StoryLabel06">開學後，微積分的課認識<br>一個神奇的同學...</h1>
+        </div>
+        <div id="StoryScreen007" style="display: none;">
+            <h1 id="StoryLabel07">沒錯！他就是吳俊廷！</h1>
+            <p><img src="yuyu_birthday2024/images/jintinandroku.png" id="jintinandroku"></p>
+        </div>
+        <div id="StoryScreen008" style="display: none;">
+            <h1 id="StoryLabel08">Yuyu開始叫人家無菌蛋（？</h1>
+        </div>
+        <div id="StoryScreen009" style="display: none;">
+            <h1 id="StoryLabel09">在程設出第一次作業的TA Hour...</h1>
+        </div>
+        <div id="StoryScreen010" style="display: none;">
+            <h1 id="StoryLabel10">他遇到並認識了兩位助教</h1>
+        </div>
+        <div id="StoryScreen011" style="display: none;">
+            <h1 id="StoryLabel11">沒錯，就是Takala和爺爺</h1>
+        </div>
+        <div id="StoryScreen012"style="display: none;">
+            <h1 id="StoryLabel12">當然，Yuyu中文不好又調皮<br>究竟是ㄓㄨㄥˋ還是ㄔㄨㄥˊ呢 </h1>
+        </div>
+        <div id="StoryScreen013"style='display:none;'>
+            <h1 id="StoryLabel13">在程設作業一的死線前幾天<br>Yuyu卡在第五題的輸入卡好久</h1>
+        </div>
+        <div id="StoryScreen014"style='display:none;'>
+            <h1 id="StoryLabel14">Yuyu在微積分的下課認識了一個同學<br>並教他scanf("\n")</h1>
+        </div>
+        <div id="StoryScreen015"style='display:none;'>
+            <h1 id="StoryLabel15">沒錯就是這禮拜爆肝寫這個網頁的<br>可憐小孩Andy Lu</h1>
+            <p><img id = 'andyandyuyu' src="yuyu_birthday2024/images/andyandyuyu.jpg"></p>
+        </div>
+        <div id="StoryScreen016"style='display:none;'>
+            <h1 id="StoryLabel16">在一次和吳俊廷還有Andy Lu吃飯時<br>Yuyu認識了和他們兩個打比賽的隊友</h1>
+        </div>
+        <div id="StoryScreen017"style='display:none;'>
+            <h1 id="StoryLabel17">沒錯！就是吳振榮<br>人稱反陳育渝黑粉</h1>
+        </div>
+        <div id="StoryScreen018"style='display:none;'>
+            <h1 id="StoryLabel18">Yuyu與幾個好朋友的<br>大學生活就這樣繼續著
+            </h1>
+        </div>
+        <div id="StoryScreen019"style='display:none;'>
+            <h1 id="StoryLabel19">當然也有奇怪的好朋友<br>例如歐姆巴的主人之類的（？
+            </h1>
+        </div>
+        <div id="StoryScreen020"style='display:none;'>
+            <h1 id="StoryLabel20">Yuyu的生日也不知不覺地到來<br>大家都很開心的準備著
+            </h1>
+        </div>
+        <div id="StoryScreen021"style='display:none;'>
+            <!--<video id="video01" controls autoplay>
+                <source src="images/video01.mov" type="video/mp4">
+            </video>-->
+            <h1 id="StoryLabel21">祝：Yuyu生日快樂！
+            </h1>
+        </div>
+        <div id="StoryScreen022"style='display:none;'>
+            <!--<video id="video01" controls autoplay>
+                <source src="images/video01.mov" type="video/mp4">
+            </video>-->
+            <h1 id="StoryLabel22">還有嫂嫂室友的祝福哦！<br>在宿舍遇到的三角函數室友
+            </h1>
+            <p><img src="yuyu_birthday2024/images/triangle.png" id="triangle"></p>
+            <p><img src="yuyu_birthday2024/images/wifeandyuyu.jpg" id="wifeandyuyu"></p>
+        </div>
+        <div id="StoryScreen023"style='display:none;'>
+            <!--<video id="video01" controls autoplay>
+                <source src="images/video01.mov" type="video/mp4">
+            </video>-->
+            <h1 id="StoryLabel22">還有系羽大頭的祝福哦！<br>總在神秘花園遇到的大頭
+            
+        </div>
+        <div id="StoryScreen024"style='display:none;'>
+            <!--<video id="video01" controls autoplay>
+                <source src="images/video01.mov" type="video/mp4">
+            </video>-->
+            <p><img src="yuyu_birthday2024/images/happybirthday.png" id="happybirthday"></p>
+        </div>
+        
+        
+        
+    </div>
+    <div id="u_so" style="display: none;">
+        <h1 id="usoLabel">於是...</h1>
+        <p><img id = 'UsoCardOpenImg' src = "yuyu_birthday2024/images/cardopen.gif"></p>
+    </div>
+    <div id="rokucard" style="display: none;">
+        <button id = "roku_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="howchfrom">From : Roku</h1></p>
+        <p><h1 id="rokuword">敬愛之育渝，<br>
+
+            年誕之喜，敢獻簡短之賀辭
+            <br>使悠悠之歲月賦予君以歡笑
+            <br>祈願君每日皆得樂，金錢如潮
+            <br>可賞喜劇，並納吾共進晚餐，笑談江湖事。
+            <br>科科之學業，冀以成就良多，踏上卷姊之路。
+            <br>他日深情言語，當私中談及，不過以文字之外。<br>
+            誠心之祝，<br>
+            料魚</h1></p>
+    <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+
+    </div>
+    <div id="jintincard" style="display: none;">
+        
+        <button id = "jintin_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="jintinword">
+            From 快樂小七<br>
+給未來可能的116資工模範生<br>
+不管博恩還是賀瓏誰是你的心頭肉<br>
+記得留點錢搭火車（不對應該是高鐵才對 ：）<br>
+還有請不要廢掉系學會，謝謝。<br>
+return 0;<br>
+        </h1></p>
+        <p><img src="yuyu_birthday2024/images/jintinandyuyu.jpg" id="jintinandyuyu"></p>
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    <div id="wifecard" style="display: none;">
+        
+
+        <p><h1 id="wifeword">
+            Dear 陳屁孩育渝<br>
+
+上學期遇到妳這個鬼轉室友的時候我真的蠻錯愕的啦哈哈<br>
+不過幸好妳是個大好人<br>
+會餵食室友<br>
+會用警報聲把我們叫醒<br>
+還會牽紅線<br>
+真不愧是資工116模範生<br>
+還有什麼是妳不會的呢<br>
+
+好啦希望我們接下來的三年都還能睡在一起（？<br>
+嫂嫂會好好照顧妳的<br>
+愛妳呦啾咪<br>
+        </h1></p>
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    <div id="yimincard" style="display: none;">
+        <button id = "yimin_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="howchfrom">From : 大頭</h1></p>
+        <p><h1 id="yiminword">
+            陳年好酒來相敬，<br>
+化育成才模範生。<br>
+未曾渝盟真性情，<br>
+妙語橫生趣無窮！<br>
+程設燈火日夜明，<br>
+求爺幫助快快來，<br>
+完成作業一同樂！<br>
+        </h1></p>
+        <p><img src="yuyu_birthday2024/images/yimin.png" id="andyImgg"></p>
+        
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    <div id="howchcard" style="display: none;">
+        
+        <button id = "howch_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="howchfrom">From : 爺爺</h1></p>
+        <p><h1 id="howchword">敬愛的孫女，我是妳爺爺<br>
+            俗話說，禍從口出。人要心存善念<br>不要造口業，不然下輩子變成狗。<br>
+            祝 生日快樂、程設 A+</h1></p>
+        <p><img src="yuyu_birthday2024/images/howchImg.jpg" id="howchImgg"></p>
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    <div id="takalacard" style="display: none;">
+        
+        <button id = "takala_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="takalaword">恭喜我們的（偽）模範生19歲，<br>祝天天不失言、叫對名字<br>
+            By Takala</h1></p>
+            <p><img src="yuyu_birthday2024/images/takalaImg.jpg" id="takalaImgg"></p>
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    <div id="andycard" style="display: none;">
+        <button id = "andy_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="howchfrom">From : Andy Lu</h1></p>
+        <p><h1 id="andyword">
+            我只能說爆肝好累QAQ<br>
+            這個企劃是這禮拜才想到的<br>
+            所以我這禮拜每天半夜都在爆肝QAQ<br>
+            總之，很開心可以認識你！跟你當好朋友！<br>
+            祝 生日快樂、程設一定過的啦！
+        </h1></p>
+        <p><img src="yuyu_birthday2024/images/andyImg.jpg" id="andyImgg"></p>
+        
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    <div id="longcard" style="display: none;">
+        
+        <button id = "long_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="howchfrom">From : MaxLong</h1></p>
+        <p><h1 id="longword">
+            不管白色還是綠色都是好顏色，育渝同學啊<br>
+            希望你不要像那位白色的人一直失言，要多說好話
+            <br>多做善事，才能稱得上資工 116 模範生哦！
+            <br>希望你 19 歲可以成熟一點，生日快樂。
+        </h1></p>
+        <p><img src="yuyu_birthday2024/images/maxlong.jpg" id="longImgg"></p>
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    <div id="noyacard" style="display: none;">
+        
+        <button id = "noya_card_end" onclick="StoryMoveOn()"></button>
+        <p><h1 id="howchfrom">From : 歐姆巴的爸爸</h1></p>
+        <p><h1 id="noyaword">
+            雖然你總是像條狗一樣吵，<br>但我真的很高興能在大學的時候<br>
+            再遇到像你這樣狗話連篇的人。<br>因為嘴砲你是我大學生活中必不可少的樂趣，
+            <br>真的很高興跟你當同學誒～祝你考個好研究所
+        </h1></p>
+        <p><img src="yuyu_birthday2024/images/noyaImg.png" id="noyaImg"></p>
+        <img src="yuyu_birthday2024/images/card_bg.jpg" id="card_bg">
+        
+    
+    </div>
+    
+
+    <script src="yuyu_birthday2024/script.js"></script>
+</body>
+
+</html>
