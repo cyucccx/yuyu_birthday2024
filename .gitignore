@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+
+# Temporary files
+.tmp
+
+# Application specific files
+/Library/Application Support/
+/Library/Caches/
